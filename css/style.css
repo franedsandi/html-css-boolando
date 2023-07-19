@@ -1,5 +1,84 @@
+/* general */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.p-fixed{
+  position: fixed;
+  width: 100%;
+}
+.d-flex{
+  display: flex;
+}
+.s-between{
+  justify-content: space-between;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+ul, li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.c-white{
+  color: white;
+}
+.p-relative {
+  position: relative;
+}
+.p-absolute {
+  position:absolute
+}
+/* header */
+.top{
+  z-index: 1;
+}
+header .topbar {
+  height: 50px;
+  background-color: #FF6900 ;
+}
+header .topbar .container{
+  align-items: center;
+  height: 100%;
+}
+.menu li{
+  min-width: 70px ;
+}
+.menu{
+  width: 180px;
+}
+.submenu{
+  width: 60px;
+}
+.container.logo{
+  width: 100px;
+}
+.container .logo .img{
+  width: 100%;
+  height: 30px;
+}
+/* main */
+main .container{
+  padding: 60px 0px 0px;
+  justify-content: center;
+}
+.content{
+  height: 400px;
+  width: 90%;
+  background-color: black;
+}
+.card{
+  width: 200px;
+  height: 300px;
+  background-color: white;
+}
+.image img{
+width: 100%;
+}
+.image{
+  height: 50%;
 }
