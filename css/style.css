@@ -26,6 +26,7 @@ ul, li{
 }
 a{
   text-decoration: none;
+  color: white;
 }
 .c-white{
   color: white;
@@ -39,10 +40,11 @@ a{
 /* header */
 .top{
   z-index: 1;
+  box-shadow: ;
 }
 header .topbar {
   height: 50px;
-  background-color: #FF6900 ;
+  background-color: #FF6900;
 }
 header .topbar .container{
   align-items: center;
@@ -96,10 +98,12 @@ height: 100%;
 .brand , 
 .price{
   font-size: .9rem;
+  text-transform: capitalize;
 }
 .name{
   font-size: 1.3rem;
   font-weight: bold;
+  text-transform: uppercase;
 }
 .price{
   font-weight: bold;
@@ -133,4 +137,25 @@ height: 100%;
 .caracteristicas .sostenibile{
   background-color: green;
   padding: 3px 5px;
+}
+
+/* footer */
+footer{
+  background-color: #1A1A1A;
+}
+footer .container{
+  width: 90%;
+  height: 100px;
+  color: white;
+  align-items: center;
+}
+footer .container span{
+  display: block;
+  font-size: 1.5rem;
+}
+.legal{
+  min-width: 430px;
+}
+.social ul{
+  width: 100px ;
 }
