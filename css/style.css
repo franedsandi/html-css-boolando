@@ -61,6 +61,10 @@ header .topbar .container{
   width: 180px;
 }
 .submenu{
+  width: 180px;
+  justify-content: flex-end;
+}
+.options {
   width: 60px;
 }
 .container.logo{
