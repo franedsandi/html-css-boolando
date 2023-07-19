@@ -17,6 +17,9 @@
 .s-between{
   justify-content: space-between;
 }
+.j-center{
+  justify-content: center;
+}
 .container{
   width: 90%;
   margin: 0 auto;
@@ -39,7 +42,7 @@ a{
 }
 /* header */
 .top{
-  z-index: 1;
+  z-index: 3;
   box-shadow: 0px 0px 10px #FF6900;
 }
 header .topbar {
@@ -71,34 +74,37 @@ header .topbar .container{
 main .container{
   padding: 60px 0px 0px;
   justify-content: center;
+  margin-bottom: 20px;
 }
 .content{
   width: 100%;
-  background-color: black;
+  align-items: center;
 }
 .card{
   width: 30%;
-  min-height: 350px;
+  min-width: 300px;
   background-color: white;
-  margin-bottom: 20px;
+  margin: 10px;
 }
 .image img{
 width: 100%;
-height: 100%;
 }
-.image{
-  height: 90%;
-}
+
 .description{
   background-color: white;
 }
 .upper{
   z-index: 1;
   right: 0;
+  top: 0;
   display: none;
 }
-.card:hover upper{
+.card :hover .upper{
   display: block;
+  cursor: pointer;
+}
+.like :hover{
+  color: red;
 }
 .description .tag { 
   display: block;
@@ -110,7 +116,7 @@ height: 100%;
   text-transform: capitalize;
 }
 .name{
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: bold;
   text-transform: uppercase;
 }
