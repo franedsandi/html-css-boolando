@@ -8,6 +8,12 @@
   position: fixed;
   width: 100%;
 }
+.p-relative {
+  position: relative;
+}
+.p-absolute {
+  position:absolute
+}
 .d-flex{
   display: flex;
 }
@@ -33,12 +39,6 @@ a{
 }
 .c-white{
   color: white;
-}
-.p-relative {
-  position: relative;
-}
-.p-absolute {
-  position:absolute
 }
 /* header */
 .top{
